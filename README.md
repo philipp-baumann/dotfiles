@@ -18,7 +18,8 @@ whoami
     ## baumanph
 
 ``` bash
-# This is my remote friend with blue fishes and cabal
+# This is my remote friend with blue fishes and cabal;
+# cooking with elixir comes later
 ls -la /media/vm/
 ```
 
