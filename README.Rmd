@@ -35,3 +35,14 @@ ls -la $HOME
 # sudo chmod 600 ~/.smbcredentials 
 ```
 
+```{bash, eval=FALSE}
+(base) baumanph@baumanph-MacBookPro:~$ gpg --list-keys --keyid-format long
+/home/baumanph/.gnupg/pubring.kbx
+---------------------------------
+pub   rsa4096/E5881BA04CED4A9A 2019-04-29 [SC]
+      2F0E4AEF51FDEF553D6D50C3E5881BA04CED4A9A
+uid                 [ultimate] Philipp Baumann <baumann-philipp@protonmail.com>
+sub   rsa4096/48A2D8D27705F72D 2019-04-29 [E]
+```
+
+

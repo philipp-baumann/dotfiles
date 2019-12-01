@@ -68,8 +68,8 @@ ls -la /media/vm/
 ls -la $HOME
 ```
 
-    ## total 97128
-    ## drwxr-xr-x 52 baumanph baumanph     4096 Dez  1 16:27 .
+    ## total 97244
+    ## drwxr-xr-x 53 baumanph baumanph     4096 Dez  1 18:20 .
     ## drwxr-xr-x  4 root     root         4096 Aug  5 11:58 ..
     ## -rw-rw-r--  1 baumanph baumanph      840 Apr  6  2019 .alsaequal.bin
     ## -rw-rw-r--  1 baumanph baumanph      742 Okt 24 16:02 .anyconnect
@@ -85,7 +85,7 @@ ls -la $HOME
     ## drwxrwxr-x  2 baumanph baumanph     4096 Jun  6 09:01 .cifex
     ## drwxrwxr-x  3 baumanph baumanph     4096 Mai 19  2019 .conda
     ## -rw-rw-r--  1 baumanph baumanph       71 Mai 20  2019 .condarc
-    ## drwx------ 44 baumanph baumanph     4096 Dez  1 16:45 .config
+    ## drwx------ 44 baumanph baumanph     4096 Dez  1 18:37 .config
     ## drwx------  3 root     root         4096 Jan 25  2019 .dbus
     ## drwxr-xr-x  2 baumanph baumanph     4096 Nov 14 11:57 Desktop
     ## -rw-------  1 baumanph baumanph       87 Nov 20 14:33 .directory
@@ -146,6 +146,7 @@ ls -la $HOME
     ## drwxrwxr-x  3 baumanph baumanph     4096 Jan 26  2019 test2
     ## drwxrwxr-x  4 baumanph baumanph     4096 Jun  3 10:56 texmf
     ## drwx------  5 baumanph baumanph     4096 Nov 28 10:52 .thunderbird
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Dez  1 18:20 tmp
     ## -rw-r--r--  1 baumanph baumanph       15 Jan 25  2019 uidfile
     ## drwx------  2 baumanph baumanph     4096 Jul 31 19:13 .unison
     ## drwxr-xr-x  2 baumanph baumanph     4096 Jan 24  2019 Videos
@@ -153,7 +154,7 @@ ls -la $HOME
     ## -rw-rw-r--  1 baumanph baumanph      215 Nov 12 15:45 .wget-hsts
     ## -rw-------  1 baumanph baumanph       64 Dez  1 16:27 .Xauthority
     ## -rw-rw-r--  1 baumanph baumanph      218 Sep 20 14:58 .Xmodmap
-    ## -rw-------  1 baumanph baumanph   598142 Dez  1 16:49 .xsession-errors
+    ## -rw-------  1 baumanph baumanph   716624 Dez  1 18:50 .xsession-errors
     ## drwx------  3 baumanph baumanph     4096 Jan 26  2019 .zotero
     ## drwxr-xr-x  9 baumanph baumanph     4096 Dez  1 16:28 Zotero
 
@@ -164,4 +165,14 @@ ls -la $HOME
 ``` bash
 # be careful and set ownership:
 # sudo chmod 600 ~/.smbcredentials 
+```
+
+``` bash
+(base) baumanph@baumanph-MacBookPro:~$ gpg --list-keys --keyid-format long
+/home/baumanph/.gnupg/pubring.kbx
+---------------------------------
+pub   rsa4096/E5881BA04CED4A9A 2019-04-29 [SC]
+      2F0E4AEF51FDEF553D6D50C3E5881BA04CED4A9A
+uid                 [ultimate] Philipp Baumann <baumann-philipp@protonmail.com>
+sub   rsa4096/48A2D8D27705F72D 2019-04-29 [E]
 ```
