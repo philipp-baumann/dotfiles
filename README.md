@@ -64,10 +64,11 @@ ls -la /media/vm/
 
 ``` bash
 # Local machinery
+# That commercial Dropbox will be deleted soon...
 ls -la $HOME
 ```
 
-    ## total 97124
+    ## total 97128
     ## drwxr-xr-x 52 baumanph baumanph     4096 Dez  1 16:27 .
     ## drwxr-xr-x  4 root     root         4096 Aug  5 11:58 ..
     ## -rw-rw-r--  1 baumanph baumanph      840 Apr  6  2019 .alsaequal.bin
@@ -84,7 +85,7 @@ ls -la $HOME
     ## drwxrwxr-x  2 baumanph baumanph     4096 Jun  6 09:01 .cifex
     ## drwxrwxr-x  3 baumanph baumanph     4096 Mai 19  2019 .conda
     ## -rw-rw-r--  1 baumanph baumanph       71 Mai 20  2019 .condarc
-    ## drwx------ 44 baumanph baumanph     4096 Dez  1 16:34 .config
+    ## drwx------ 44 baumanph baumanph     4096 Dez  1 16:45 .config
     ## drwx------  3 root     root         4096 Jan 25  2019 .dbus
     ## drwxr-xr-x  2 baumanph baumanph     4096 Nov 14 11:57 Desktop
     ## -rw-------  1 baumanph baumanph       87 Nov 20 14:33 .directory
@@ -152,6 +153,15 @@ ls -la $HOME
     ## -rw-rw-r--  1 baumanph baumanph      215 Nov 12 15:45 .wget-hsts
     ## -rw-------  1 baumanph baumanph       64 Dez  1 16:27 .Xauthority
     ## -rw-rw-r--  1 baumanph baumanph      218 Sep 20 14:58 .Xmodmap
-    ## -rw-------  1 baumanph baumanph   597187 Dez  1 16:42 .xsession-errors
+    ## -rw-------  1 baumanph baumanph   598142 Dez  1 16:49 .xsession-errors
     ## drwx------  3 baumanph baumanph     4096 Jan 26  2019 .zotero
     ## drwxr-xr-x  9 baumanph baumanph     4096 Dez  1 16:28 Zotero
+
+# Recipe
+
+## Work securely
+
+``` bash
+# be careful and set ownership:
+# sudo chmod 600 ~/.smbcredentials 
+```

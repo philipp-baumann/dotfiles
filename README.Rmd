@@ -22,7 +22,16 @@ ls -la /media/vm/
 
 ```{bash}
 # Local machinery
+# That commercial Dropbox will be deleted soon...
 ls -la $HOME
 ```
 
+# Recipe
+
+## Work securely
+
+```{bash, eval=FALSE}
+# be careful and set ownership:
+# sudo chmod 600 ~/.smbcredentials 
+```
 
