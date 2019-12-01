@@ -31,7 +31,7 @@ ls -la $HOME
 ## Work securely
 
 ```{bash, eval=FALSE}
-# be careful and set ownership:
+# be careful and set ownership and correct mode:
 # sudo chmod 600 ~/.smbcredentials 
 ```
 

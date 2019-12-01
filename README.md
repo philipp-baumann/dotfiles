@@ -68,7 +68,7 @@ ls -la /media/vm/
 ls -la $HOME
 ```
 
-    ## total 97244
+    ## total 97268
     ## drwxr-xr-x 53 baumanph baumanph     4096 Dez  1 18:20 .
     ## drwxr-xr-x  4 root     root         4096 Aug  5 11:58 ..
     ## -rw-rw-r--  1 baumanph baumanph      840 Apr  6  2019 .alsaequal.bin
@@ -154,7 +154,7 @@ ls -la $HOME
     ## -rw-rw-r--  1 baumanph baumanph      215 Nov 12 15:45 .wget-hsts
     ## -rw-------  1 baumanph baumanph       64 Dez  1 16:27 .Xauthority
     ## -rw-rw-r--  1 baumanph baumanph      218 Sep 20 14:58 .Xmodmap
-    ## -rw-------  1 baumanph baumanph   716624 Dez  1 18:50 .xsession-errors
+    ## -rw-------  1 baumanph baumanph   738025 Dez  1 19:10 .xsession-errors
     ## drwx------  3 baumanph baumanph     4096 Jan 26  2019 .zotero
     ## drwxr-xr-x  9 baumanph baumanph     4096 Dez  1 16:28 Zotero
 
@@ -163,7 +163,7 @@ ls -la $HOME
 ## Work securely
 
 ``` bash
-# be careful and set ownership:
+# be careful and set ownership and correct mode:
 # sudo chmod 600 ~/.smbcredentials 
 ```
 
