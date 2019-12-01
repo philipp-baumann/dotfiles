@@ -10,3 +10,11 @@ several homes with friendly hosts):
     owned by ETH Zürich
   - on local Ubuntu 18 running on a hackintosh Pro, provided by ETH and
     in control of me
+
+I am the same on both machines:
+
+``` bash
+whoami
+```
+
+    ## baumanph
