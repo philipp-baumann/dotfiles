@@ -16,3 +16,9 @@ I am the same on both machines:
 whoami
 ```
 
+```{bash}
+# This is my remote friend with blue fishes and cabal
+ls -la /media/vm/
+```
+
+
