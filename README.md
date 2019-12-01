@@ -1,8 +1,6 @@
 dotfiles
 ================
 
-# dotfiles
-
 dotfiles that reside in my homes (yes my computation engines live in
 several homes with friendly hosts):
 
