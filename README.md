@@ -61,3 +61,97 @@ ls -la /media/vm/
     ## -rw-------  1 61002 17350     3949 Nov 10 14:19 .viminfo
     ## -rw-r--r--  1 61002 17350       90 Sep 24 12:03 .wgetrc
     ## -rw-------  1 61002 17350      448 Nov 27 14:50 .Xauthority
+
+``` bash
+# Local machinery
+ls -la $HOME
+```
+
+    ## total 97124
+    ## drwxr-xr-x 52 baumanph baumanph     4096 Dez  1 16:27 .
+    ## drwxr-xr-x  4 root     root         4096 Aug  5 11:58 ..
+    ## -rw-rw-r--  1 baumanph baumanph      840 Apr  6  2019 .alsaequal.bin
+    ## -rw-rw-r--  1 baumanph baumanph      742 Okt 24 16:02 .anyconnect
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Aug  5 15:56 apps
+    ## drwxrwxr-x  7 baumanph baumanph     4096 Nov 21 10:30 .atom
+    ## -rw-------  1 baumanph baumanph    49857 Dez  1 15:23 .bash_history
+    ## -rw-r--r--  1 baumanph baumanph      220 Jan 24  2019 .bash_logout
+    ## -rw-r--r--  1 baumanph baumanph     4394 Okt  8 17:50 .bashrc
+    ## -rw-r--r--  1 baumanph baumanph     3852 Mai  8  2019 .bashrc-anaconda3.bak
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Aug  5 15:53 bin
+    ## drwx------ 39 baumanph baumanph     4096 Dez  1 16:32 .cache
+    ## drwxrwxr-x  4 baumanph baumanph     4096 Mai 27  2019 caret2hex
+    ## drwxrwxr-x  2 baumanph baumanph     4096 Jun  6 09:01 .cifex
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Mai 19  2019 .conda
+    ## -rw-rw-r--  1 baumanph baumanph       71 Mai 20  2019 .condarc
+    ## drwx------ 44 baumanph baumanph     4096 Dez  1 16:34 .config
+    ## drwx------  3 root     root         4096 Jan 25  2019 .dbus
+    ## drwxr-xr-x  2 baumanph baumanph     4096 Nov 14 11:57 Desktop
+    ## -rw-------  1 baumanph baumanph       87 Nov 20 14:33 .directory
+    ## drwxrwx---  2 baumanph baumanph     4096 Aug  8 10:38 .docker
+    ## drwxr-xr-x  5 baumanph baumanph     4096 Nov 21 15:39 Documents
+    ## drwxr-xr-x 10 baumanph baumanph    12288 Dez  1 14:29 Downloads
+    ## drwx------  4 baumanph baumanph     4096 Nov 20 13:37 Dropbox
+    ## -rw-rw-r--  1 baumanph baumanph        0 Nov 20 14:17 extract
+    ## -rw-r--r--  1 baumanph baumanph      110 Jan 28  2019 .fonts.conf
+    ## drwx------  2 baumanph baumanph     4096 Dez  1 16:28 .gconf
+    ## -rw-r--r--  1 baumanph baumanph       16 Jan 25  2019 gidfile
+    ## drwxrwxr-x  6 baumanph baumanph     4096 Nov 20 17:51 .git
+    ## -rw-rw-r--  1 baumanph baumanph       98 Okt  1 14:35 .gitconfig
+    ## -rw-rw-r--  1 baumanph baumanph       40 Nov 20 17:51 .gitignore
+    ## -rw-rw-r--  1 baumanph baumanph 98435072 Dez  1 16:27 .gnotero.sqlite
+    ## drwx------  4 baumanph baumanph     4096 Jun 17 18:40 .gnupg
+    ## drwxr-xr-x  2 baumanph baumanph     4096 Feb 12  2019 .gphoto
+    ## -rw-rw-r--  1 baumanph baumanph      336 Jan 24  2019 .gtkrc-2.0
+    ## -rw-------  1 baumanph baumanph     1114 Jan 24  2019 .ICEauthority
+    ## drwxr-xr-x  5 baumanph baumanph     4096 Aug  9 20:17 .ipython
+    ## drwxrwxr-x  4 baumanph baumanph     4096 Mai  8  2019 .java
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Aug  9 20:20 .jupyter
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Jan 24  2019 .kde
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Mai 20  2019 .keras
+    ## drwxrwxr-x  5 baumanph baumanph     4096 Sep 20 13:45 kwin-tiling
+    ## drwx------  5 baumanph baumanph     4096 Apr 28  2019 .local
+    ## -rw-rw-r--  1 baumanph baumanph     1281 Feb 13  2019 lsf.tmpl
+    ## drwxrwxr-x 50 baumanph baumanph     4096 Aug  9 20:08 miniconda3
+    ## drwx------  5 baumanph baumanph     4096 Jan 24  2019 .mozilla
+    ## -rw-rw-r--  1 baumanph baumanph    12230 Mai 20  2019 msg-error
+    ## drwxr-xr-x  2 baumanph baumanph     4096 Jan 24  2019 Music
+    ## drwxr-xr-x  7 baumanph baumanph     4096 Jan 25  2019 .mutagen
+    ## -rw-r--r--  1 baumanph baumanph       21 Jan 26  2019 .mutagen.toml
+    ## drwx------  3 baumanph baumanph     4096 Aug  5 12:07 .org.jabref.JabRefMain
+    ## drwxr-xr-x  2 baumanph baumanph     4096 Nov 22 10:51 Pictures
+    ## drwx------  3 baumanph baumanph     4096 Jan 27  2019 .pki
+    ## -rw-r--r--  1 baumanph baumanph      963 Aug  5 11:52 .profile
+    ## drwxr-xr-x  2 baumanph baumanph     4096 Jan 24  2019 Public
+    ## drwxrwxr-x  4 baumanph baumanph     4096 Mai  8  2019 .PyCharmCE2019.1
+    ## drwxrwxr-x  4 baumanph baumanph     4096 Nov 22 14:57 .PyCharmCE2019.2
+    ## -rw-------  1 baumanph baumanph       68 Aug  9 20:26 .python_history
+    ## drwxrwxr-x  4 baumanph baumanph     4096 Nov 10 14:37 R
+    ## drwxr-xr-x  3 root     root         4096 Aug 13 17:20 .R
+    ## -rw-rw-r--  1 baumanph baumanph      118 Jun 22 16:42 .radian_history
+    ## -rw-r--r--  1 baumanph baumanph       52 Aug 15 13:50 .Renviron
+    ## -rw-r--r--  1 baumanph baumanph    12288 Aug 15 13:47 .Renviron.swp
+    ## -rw-rw-r--  1 baumanph baumanph      166 Nov 21 07:52 .Rhistory
+    ## -rw-rw-r--  1 baumanph baumanph      205 Nov 20 17:51 ~.Rproj
+    ## drwxrwxr-x  4 baumanph baumanph     4096 Nov 20 14:21 .Rproj.user
+    ## drwxrwxr-x 22 baumanph baumanph     4096 Dez  1 09:44 .rstudio-desktop
+    ## -rw-rw-r--  1 baumanph baumanph        0 Sep 23 16:32 .selected_editor
+    ## -rw-------  1 baumanph baumanph       41 Jan 25  2019 .smbcredentials
+    ## drwxr-xr-x  8 baumanph baumanph     4096 Aug 12 10:04 snap
+    ## drwx------  2 baumanph baumanph     4096 Okt 16 16:20 .ssh
+    ## -rw-r--r--  1 baumanph baumanph        0 Jan 24  2019 .sudo_as_admin_successful
+    ## drwxr-xr-x  2 baumanph baumanph     4096 Jan 24  2019 Templates
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Jan 26  2019 test1
+    ## drwxrwxr-x  3 baumanph baumanph     4096 Jan 26  2019 test2
+    ## drwxrwxr-x  4 baumanph baumanph     4096 Jun  3 10:56 texmf
+    ## drwx------  5 baumanph baumanph     4096 Nov 28 10:52 .thunderbird
+    ## -rw-r--r--  1 baumanph baumanph       15 Jan 25  2019 uidfile
+    ## drwx------  2 baumanph baumanph     4096 Jul 31 19:13 .unison
+    ## drwxr-xr-x  2 baumanph baumanph     4096 Jan 24  2019 Videos
+    ## -rw-------  1 baumanph baumanph     7313 Okt 21 08:38 .viminfo
+    ## -rw-rw-r--  1 baumanph baumanph      215 Nov 12 15:45 .wget-hsts
+    ## -rw-------  1 baumanph baumanph       64 Dez  1 16:27 .Xauthority
+    ## -rw-rw-r--  1 baumanph baumanph      218 Sep 20 14:58 .Xmodmap
+    ## -rw-------  1 baumanph baumanph   597187 Dez  1 16:42 .xsession-errors
+    ## drwx------  3 baumanph baumanph     4096 Jan 26  2019 .zotero
+    ## drwxr-xr-x  9 baumanph baumanph     4096 Dez  1 16:28 Zotero

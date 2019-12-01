@@ -20,4 +20,9 @@ whoami
 ls -la /media/vm/
 ```
 
+```{bash}
+# Local machinery
+ls -la $HOME
+```
+
 
